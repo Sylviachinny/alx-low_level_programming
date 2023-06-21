@@ -2,7 +2,7 @@
 /**
  * print_alphabet - Prints the alphabet in lowercase
  *
- * Return: Always 0
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -12,5 +12,5 @@ void print_alphabet(void)
 	{
 		_putchar(letter);
 	}
-_putchar('\n');
+	_putchar('\n');
 }

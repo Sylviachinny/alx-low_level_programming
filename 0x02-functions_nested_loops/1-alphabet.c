@@ -2,15 +2,15 @@
 /**
  * print_alphabet - Prints the alphabet in lowercase
  *
- * Return: void
+ * Return: Always 0
  */
 void print_alphabet(void)
 {
-	char letter;
+	char alpha;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(letter);
+		_putchar(alpha);
 	}
 	_putchar('\n');
 }

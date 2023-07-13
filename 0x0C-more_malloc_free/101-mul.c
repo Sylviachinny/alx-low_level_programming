@@ -19,7 +19,6 @@ int is_digit(char *s)
 	}
 	return (1);
 }
-
 /**
  * _strlen - returns the length of a string
  * @s: string to evaluate
@@ -35,7 +34,6 @@ int _strlen(char *s)
 	}
 	return (i);
 }
-
 /**
  * errors - handles errors for main
  */
@@ -44,7 +42,6 @@ void errors(void)
 	printf("Error\n");
 	exit(98);
 }
-
 /**
  * main - multiplies two positive numbers
  * @argc: number of arguments
@@ -64,10 +61,8 @@ int main(int argc, char *argv[])
 	len2 = _strlen(s2);
 	len = len1 + len2 + 1;
 	result = malloc(sizeof(int) * len);
-
 	if (!result)
 		return (1);
-
 	for (i = 0; i <= len1 + len2; i++)
 		result[i] = 0;
 	for (len1 = len1 - 1; len1 >= 0; len1--)
@@ -81,7 +76,6 @@ int main(int argc, char *argv[])
 			result[len1 + len2 + 1] = carry % 10;
 			carry /= 10;
 		}
-
 		if (carry > 0)
 			result[len1 + len2 + 1] += carry;
 	}

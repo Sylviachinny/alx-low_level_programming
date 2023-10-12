@@ -1,27 +1,14 @@
-# 0x15. C - File I/O ALX SE
+#0x17. C - Doubly linked lists
 
-Resources
+##Resources
 Read or watch:
 
-File descriptors
-C Programming in Linux Tutorial #024 - open() read() write() Functions
-man or help:
+What is a Doubly Linked List
 
-open
-close
-read
-write
-dprintf
-Learning Objectives
+###Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
-Look for the right source of information online
-How to create, open, close, read and write files
-What are file descriptors
-What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
-How to use the I/O system calls open, close, read and write
-What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
-What are file permissions, and how to set them when creating a file with the open system call
-What is a system call
-What is the difference between a function and a system call
+What is a doubly linked list
+How to use doubly linked lists
+Start to look for the right source of information without too much help
